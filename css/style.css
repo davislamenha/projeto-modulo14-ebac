@@ -1,0 +1,32 @@
+/* === GERAL === */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* === HEADER === */
+.navbar {
+  background-color: #03588c;
+}
+
+.navbar-brand {
+  font-family: 'Pacifico', cursive;
+}
+
+.nav .nav-link.active {
+  background-color: #fff;
+  color: #03588c;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover {
+  color: #fff;
+}
+
+.nav-link {
+  transition: 0.3s ease;
+}
+
+.nav-link:hover {
+  opacity: 0.8;
+}
