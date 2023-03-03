@@ -30,3 +30,7 @@ body {
 .nav-link:hover {
   opacity: 0.8;
 }
+
+.navbar-toggler {
+  background-color: #a0d3f2;
+}
