@@ -5,6 +5,9 @@ body {
 .f-pacifico {
   font-family: 'Pacifico', cursive;
 }
+.text-colored {
+  color: #03588c;
+}
 
 /* === HEADER === */
 .navbar {
