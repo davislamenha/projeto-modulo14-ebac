@@ -15,7 +15,7 @@ body {
 }
 
 .nav .nav-link.active {
-  background-color: #fafdf5;
+  background-color: #dce4f2;
   color: #03588c;
 }
 
@@ -34,12 +34,12 @@ body {
 }
 
 .navbar-toggler {
-  background-color: #fafdf5;
+  background-color: #dce4f2;
 }
 
 /* === SOBRE === */
 #sobre {
-  background-color: #fafdf5;
+  background-color: #dce4f2;
 }
 .f-pacifico > span {
   color: #03588c;
