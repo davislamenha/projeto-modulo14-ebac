@@ -2,18 +2,17 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+.f-pacifico {
+  font-family: 'Pacifico', cursive;
+}
 
 /* === HEADER === */
 .navbar {
   background-color: #03588c;
 }
 
-.navbar-brand {
-  font-family: 'Pacifico', cursive;
-}
-
 .nav .nav-link.active {
-  background-color: #fff;
+  background-color: #fafdf5;
   color: #03588c;
 }
 
@@ -32,5 +31,13 @@ body {
 }
 
 .navbar-toggler {
-  background-color: #a0d3f2;
+  background-color: #fafdf5;
+}
+
+/* === SOBRE === */
+#sobre {
+  background-color: #fafdf5;
+}
+.f-pacifico > span {
+  color: #03588c;
 }
