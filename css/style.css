@@ -49,11 +49,21 @@ body {
 }
 
 /* === CARDAPIO === */
-.nav-cardapio .nav-link.active {
+.nav-cardapio .nav-link.active,
+#contato form button {
   background-color: #03588c;
   color: #dce4f2;
+  transition: 0.3s ease;
 }
 
-.nav-cardapio .nav-link:hover {
+.nav-cardapio .nav-link:hover,
+#contato form button:hover {
   opacity: 0.8;
+}
+
+/* === CONTATO === */
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 12px;
 }
