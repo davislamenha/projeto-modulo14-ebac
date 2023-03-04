@@ -8,18 +8,21 @@ body {
 .text-colored {
   color: #03588c;
 }
+.bg-light-blue {
+  background-color: #dce4f2;
+}
 
 /* === HEADER === */
-.navbar {
+#cabecalho.navbar {
   background-color: #03588c;
 }
 
-.nav .nav-link.active {
+#cabecalho .nav .nav-link.active {
   background-color: #dce4f2;
   color: #03588c;
 }
 
-.nav .nav-link,
+#cabecalho .nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover {
   color: #fff;
@@ -38,9 +41,16 @@ body {
 }
 
 /* === SOBRE === */
-#sobre {
-  background-color: #dce4f2;
-}
 .f-pacifico > span {
   color: #03588c;
+}
+
+/* === CARDAPIO === */
+.nav-cardapio .nav-link.active {
+  background-color: #03588c;
+  color: #dce4f2;
+}
+
+.nav-cardapio .nav-link:hover {
+  opacity: 0.8;
 }
