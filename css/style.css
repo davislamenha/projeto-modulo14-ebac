@@ -1,4 +1,7 @@
 /* === GERAL === */
+html {
+  scroll-padding-top: 88px;
+}
 body {
   font-family: 'Roboto', sans-serif;
 }
